@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MARQUE DESIGN — Minimal Design. Maximum Impact. | Chirantha Dewruwan</title>
+    <!-- CSS Linkage -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <!-- ==========================================
+         HEADER / NAVIGATION
+         ========================================== -->
+    <header id="header">
+        <div class="container">
+            <a href="#" class="logo">MARQUE <span>DESIGN</span></a>
+            
+            <nav id="nav">
+                <a href="#" class="active">Home</a>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#portfolio">Work</a>
+                <a href="#contact">Contact</a>
+            </nav>
+
+            <button class="mobile-nav-toggle" aria-label="Toggle navigation menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- ==========================================
+         HERO SECTION
+         ========================================== -->
+    <section class="hero-section" id="hero">
+        <div class="container hero-content">
+            <div class="hero-tagline fade-up-element" style="--i: 0;">Minimal Design. Maximum Impact.</div>
+            <h1 class="hero-title fade-up-element" style="--i: 1;">MARQUE DESIGN</h1>
+            <div class="hero-subtitle fade-up-element" style="--i: 2;">Graphic Designer & Brand Identity Specialist</div>
+            <p class="hero-description fade-up-element" style="--i: 3;">
+                Curating timeless visual identities and tactile packaging systems through absolute clarity. Independent design studio led by Chirantha Dewruwan.
+            </p>
+            <div class="btn-group fade-up-element" style="--i: 4;">
+                <a href="#portfolio" class="btn btn-primary" id="btn-view-portfolio">View Portfolio</a>
+                <a href="#contact" class="btn btn-secondary" id="btn-get-started">Let's Talk</a>
+            </div>
+        </div>
+        <div class="scroll-down" onclick="document.getElementById('about').scrollIntoView({behavior: 'smooth'})">
+            <span>Scroll</span>
+        </div>
+    </section>
+
+    <!-- ==========================================
+         ABOUT SECTION
+         ========================================== -->
+    <section id="about">
+        <div class="container grid-2 stagger-container">
+            <div>
+                <span class="mono-tag">01 / The Designer</span>
+                <h2 class="about-title">CHIRANTHA DEWRUWAN</h2>
+                <div class="about-highlight">
+                    "Minimalism is not the lack of something. It is the perfect amount of something."
+                </div>
+            </div>
+            <div class="about-bio">
+                <p>
+                    I am a visual designer dedicated to the pursuit of pure, intentional design. As the creative force behind MARQUE DESIGN, I partner with forward-thinking businesses and luxury brands to build deep-rooted visual identities.
+                </p>
+                <p>
+                    My philosophy honors structural grids, geometric precision, and the elegant power of negative space. By dismantling unnecessary distractions, I reveal the raw, singular essence of each brand—ensuring it makes its maximum impact with minimal noise.
+                </p>
+                
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <div class="stat-number">8+</div>
+                        <div class="stat-label">Years Experience</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">40+</div>
+                        <div class="stat-label">Identity Frameworks</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+         SERVICES SECTION
+         ========================================== -->
+    <section id="services">
+        <div class="container">
+            <div class="section-header fade-up-element">
+                <span class="mono-tag">02 / Creative Expertise</span>
+                <h2>DESIGN CAPABILITIES</h2>
+            </div>
+            
+            <div class="services-grid stagger-container">
+                <!-- Service 1 -->
+                <div class="service-card">
+                    <span class="service-num">01 / BRAND IDENTITY</span>
+                    <div>
+                        <h3 class="service-title">Cohesive Systems</h3>
+                        <p class="service-desc">
+                            Formulating deep, expressive visual systems including typographic frameworks, monochrome coordinate styles, styling logs, and comprehensive brand guidelines.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="service-card">
+                    <span class="service-num">02 / LOGO DESIGN</span>
+                    <div>
+                        <h3 class="service-title">Balanced Wordmarks</h3>
+                        <p class="service-desc">
+                            Developing eternal monograms, bespoke signs, and responsive geometric wordmarks engineered with rigorous architectural grid alignments.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="service-card">
+                    <span class="service-num">03 / SOCIAL MEDIA</span>
+                    <div>
+                        <h3 class="service-title">Digital Curations</h3>
+                        <p class="service-desc">
+                            Curating bold digital layouts and responsive grids that establish a modern social presence for galleries, studios, and luxury labels.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Service 4 -->
+                <div class="service-card">
+                    <span class="service-num">04 / PRINT & EDITORIAL</span>
+                    <div>
+                        <h3 class="service-title">Tactile Bookworks</h3>
+                        <p class="service-desc">
+                            Designing premium physical collateral, exhibition posters, custom cosmetic boxes, high-density stationary sets, and gorgeous book typography.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+         PORTFOLIO SECTION
+         ========================================== -->
+    <section id="portfolio">
+        <div class="container">
+            <div class="section-header fade-up-element">
+                <span class="mono-tag">03 / Selected Works</span>
+                <h2>THE PORTFOLIO</h2>
+            </div>
+
+            <div class="portfolio-grid stagger-container">
+                <!-- Project 1 -->
+                <div class="portfolio-item square" data-id="archetype">
+                    <div class="portfolio-img-wrapper">
+                        <img src="./assets/portfolio/01_archetype.jpg" alt="ARCHETYPE Editorial Book" class="portfolio-img" loading="lazy" referrerPolicy="no-referrer">
+                    </div>
+                    <div class="portfolio-info">
+                        <div class="portfolio-title-group">
+                            <h3 class="portfolio-item-title">ARCHETYPE</h3>
+                            <span class="portfolio-category">Editorial & Print</span>
+                        </div>
+                        <span class="portfolio-arrow">→</span>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="portfolio-item" data-id="aeon">
+                    <div class="portfolio-img-wrapper">
+                        <img src="./assets/portfolio/02_aeon.jpg" alt="ÆON Luxury Brand Identity" class="portfolio-img" loading="lazy" referrerPolicy="no-referrer">
+                    </div>
+                    <div class="portfolio-info">
+                        <div class="portfolio-title-group">
+                            <h3 class="portfolio-item-title">ÆON CHRONOLOGY</h3>
+                            <span class="portfolio-category">Brand Identity</span>
+                        </div>
+                        <span class="portfolio-arrow">→</span>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="portfolio-item square" data-id="monolith">
+                    <div class="portfolio-img-wrapper">
+                        <img src="./assets/portfolio/03_monolith.jpg" alt="MONOLITH Skincare Packaging" class="portfolio-img" loading="lazy" referrerPolicy="no-referrer">
+                    </div>
+                    <div class="portfolio-info">
+                        <div class="portfolio-title-group">
+                            <h3 class="portfolio-item-title">MONOLITH</h3>
+                            <span class="portfolio-category">Packaging Design</span>
+                        </div>
+                        <span class="portfolio-arrow">→</span>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="portfolio-item" data-id="apex">
+                    <div class="portfolio-img-wrapper">
+                        <img src="./assets/portfolio/04_apex.jpg" alt="APEX Exhibition Poster" class="portfolio-img" loading="lazy" referrerPolicy="no-referrer">
+                    </div>
+                    <div class="portfolio-info">
+                        <div class="portfolio-title-group">
+                            <h3 class="portfolio-item-title">APEX SWISS</h3>
+                            <span class="portfolio-category">Poster & Visual Art</span>
+                        </div>
+                        <span class="portfolio-arrow">→</span>
+                    </div>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="portfolio-item landscape" data-id="kaizen">
+                    <div class="portfolio-img-wrapper">
+                        <img src="./assets/portfolio/05_kaizen.jpg" alt="KAIZEN Screenprinted Poster" class="portfolio-img" loading="lazy" referrerPolicy="no-referrer">
+                    </div>
+                    <div class="portfolio-info">
+                        <div class="portfolio-title-group">
+                            <h3 class="portfolio-item-title">KAIZEN POSTER</h3>
+                            <span class="portfolio-category">Poster & Typography</span>
+                        </div>
+                        <span class="portfolio-arrow">→</span>
+                    </div>
+                </div>
+
+                <!-- Project 6 -->
+                <div class="portfolio-item" data-id="omni">
+                    <div class="portfolio-img-wrapper">
+                        <img src="./assets/portfolio/06_omni.jpg" alt="OMNI Corporate Stationery" class="portfolio-img" loading="lazy" referrerPolicy="no-referrer">
+                    </div>
+                    <div class="portfolio-info">
+                        <div class="portfolio-title-group">
+                            <h3 class="portfolio-item-title">OMNI SYSTEM</h3>
+                            <span class="portfolio-category">Identity & Stationery</span>
+                        </div>
+                        <span class="portfolio-arrow">→</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+         CONTACT SECTION
+         ========================================== -->
+    <section id="contact">
+        <div class="container grid-2 stagger-container">
+            <div class="contact-info">
+                <div>
+                    <span class="mono-tag">04 / Collaborations</span>
+                    <h2 class="about-title">LET'S BUILD SOMETHING BEAUTIFUL</h2>
+                    <p class="contact-text">
+                        Currently accepting select commissions for visual identities, typographic poster releases, and tactile packaging architectures. Let’s talk about your next project.
+                    </p>
+                </div>
+
+                <div class="contact-details">
+                    <div class="contact-detail-item">
+                        <span class="contact-label">Direct Communication</span>
+                        <div class="contact-value"><a href="mailto:chiradewru@gmail.com">chiradewru@gmail.com</a></div>
+                    </div>
+                    <div class="contact-detail-item">
+                        <span class="contact-label">Location / Inquiries</span>
+                        <div class="contact-value">Colombo, LK / Global Remote</div>
+                    </div>
+                </div>
+
+                <div class="social-links">
+                    <a href="https://behance.net" target="_blank" rel="noopener" class="social-link">Behance</a>
+                    <a href="https://instagram.com" target="_blank" rel="noopener" class="social-link">Instagram</a>
+                    <a href="https://tiktok.com" target="_blank" rel="noopener" class="social-link">TikTok</a>
+                </div>
+            </div>
+
+            <div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="form-name" class="form-input" placeholder=" " required>
+                        <label for="form-name" class="form-label">Full Name *</label>
+                    </div>
+
+                    <div class="form-group">
+                        <input type="email" id="form-email" class="form-input" placeholder=" " required>
+                        <label for="form-email" class="form-label">Email Address *</label>
+                    </div>
+
+                    <div class="form-group">
+                        <textarea id="form-message-text" class="form-input form-textarea" placeholder=" " required></textarea>
+                        <label for="form-message-text" class="form-label">Your Message / Brief Details *</label>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary" style="align-self: flex-start; min-width: 200px;">
+                        SEND MESSAGE
+                    </button>
+
+                    <!-- Client-Side Form Success Notice -->
+                    <div id="formMessage" class="form-message"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+         FOOTER
+         ========================================== -->
+    <footer>
+        <div class="container">
+            <div class="footer-top fade-up-element">
+                <div class="footer-brand">
+                    <div class="footer-logo">MARQUE DESIGN</div>
+                    <p class="footer-tagline">Minimal Design. Maximum Impact.</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-col">
+                        <span class="footer-col-title">Navigation</span>
+                        <a href="#">Home</a>
+                        <a href="#about">About</a>
+                        <a href="#services">Services</a>
+                    </div>
+                    <div class="footer-col">
+                        <span class="footer-col-title">Gallery</span>
+                        <a href="#portfolio">Our Work</a>
+                        <a href="#contact">Contact</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="copyright">
+                    &copy; 2026 MARQUE DESIGN. All rights reserved. Creative Direction by Chirantha Dewruwan.
+                </div>
+                <button class="back-to-top" id="backToTop" aria-label="Scroll back to top">
+                    Back to top <span>↑</span>
+                </button>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ==========================================
+         PORTFOLIO LIGHTBOX CONTAINER (MODAL)
+         ========================================== -->
+    <div id="lightbox" class="lightbox" aria-hidden="true" role="dialog">
+        <button class="lightbox-close" id="lightbox-close" aria-label="Close Lightbox">✕</button>
+        
+        <button class="lightbox-nav lightbox-nav-prev" id="lightbox-prev" aria-label="Previous Project">‹</button>
+        <button class="lightbox-nav lightbox-nav-next" id="lightbox-next" aria-label="Next Project">›</button>
+
+        <div class="lightbox-content-container">
+            <!-- Left Side: Image Display -->
+            <div class="lightbox-image-stage">
+                <img id="lightbox-img" class="lightbox-image" src="" alt="" referrerPolicy="no-referrer">
+            </div>
+
+            <!-- Right Side: Spec & Info Details -->
+            <div class="lightbox-details">
+                <span class="lightbox-category" id="lightbox-category">EDITORIAL DESIGN</span>
+                <h2 class="lightbox-title" id="lightbox-title">ARCHETYPE BOOK</h2>
+                <p class="lightbox-description" id="lightbox-description">
+                    Full case study layout description of the selected graphic design.
+                </p>
+
+                <div class="lightbox-metadata-grid">
+                    <div>
+                        <div class="lightbox-meta-label">Client</div>
+                        <div class="lightbox-meta-value" id="lightbox-client">Struktur Publishing</div>
+                    </div>
+                    <div>
+                        <div class="lightbox-meta-label">Year</div>
+                        <div class="lightbox-meta-value" id="lightbox-year">2025</div>
+                    </div>
+                    <div style="grid-column: span 2; margin-top: 12px;">
+                        <div class="lightbox-meta-label">Role / Deliverables</div>
+                        <div class="lightbox-meta-value" id="lightbox-role">Art Director & Developer</div>
+                    </div>
+                </div>
+
+                <!-- Small nav container inside the sidebar description on tablet and mobile viewports -->
+                <div class="lightbox-nav-container">
+                    <button class="btn btn-secondary lightbox-nav-prev-mob" id="lightbox-prev-mob" style="padding: 10px 24px;">‹ Prev</button>
+                    <button class="btn btn-secondary lightbox-nav-next-mob" id="lightbox-next-mob" style="padding: 10px 24px;">Next ›</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Vanilla Javascript Trigger linkage -->
+    <script src="./script.js"></script>
+</body>
+</html>
