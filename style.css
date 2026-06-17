@@ -1202,3 +1202,7 @@ footer .container {
     max-height: 40px;
     width: auto;
 }
+.logo {
+    display: flex;
+    align-items: center;
+}
