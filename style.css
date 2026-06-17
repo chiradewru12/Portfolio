@@ -1198,3 +1198,7 @@ footer .container {
 .stagger-container > *.fade-up-element {
     transition-delay: calc(var(--i, 0) * 0.1s);
 }
+.logo img{
+    max-height: 40px;
+    width: auto;
+}
