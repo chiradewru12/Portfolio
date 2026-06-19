@@ -19,19 +19,19 @@ document.addEventListener('DOMContentLoaded', () => {
             title: 'Luxury Hotel logo',
             category: 'Logo Design',
             description: 'Modern Logo Design for a Luxury Hotel Brand.',
-            client: 'Personal Project.',
+            client: 'Personal Project',
             year: '2025',
             role: 'Logo Designer'
         },
         {
-            id: 'monolith',
-            img: './assets/portfolio/03_monolith.jpg',
-            title: 'MONOLITH – Minimalist Packaging',
-            category: 'Packaging Design',
-            description: 'We designed the conceptual packaging system for MONOLITH, a high-end luxury skincare line. The design language is inspired by brutalist monumental architecture, relying on unbleached brown cardboard pulp, bold stark geometrical stamps of intense carbon, and technical modern mono-spaced metadata columns. Refined raw texture at its absolute finest.',
-            client: 'MONOLITH Skincare Lab',
-            year: '2026',
-            role: 'Industrial Pack Designer'
+            id: 'Luxury Hotel logo',
+            img: './3.jpg',
+            title: 'Luxury Hotel logo',
+            category: 'Logo Design',
+            description: 'Modern Logo Design for a Luxury Hotel Brand.',
+            client: 'Personal Project',
+            year: '2025',
+            role: 'Logo Designer'
         },
         {
             id: 'apex',
