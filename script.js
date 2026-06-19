@@ -44,14 +44,14 @@ document.addEventListener('DOMContentLoaded', () => {
             role: 'Graphic Designer'
         },
         {
-            id: 'kaizen',
-            img: './assets/portfolio/05_kaizen.jpg',
-            title: 'KAIZEN — Japanese Ink Poster',
-            category: 'Poster & Typography',
-            description: 'A contemporary typographical exhibition poster blending abstract modernist graphic layouts with traditional Japanese calligraphic ink brush textures. Features a striking high-contrast alignment where screen-printed vermillion colors play against heavy-stock textured off-white papers and deep solid charcoal overlays.',
-            client: 'Tokyo Art Collective',
+            id: 'Chess Tuition Poster',
+            img: './poster.web.webp',
+            title: 'Chess Tuition Poster',
+            category: 'Poster Design',
+            description: 'A clean and engaging poster designed to promote chess tuition classes with a modern and professional look.',
+            client: 'Personal Project',
             year: '2026',
-            role: 'Poster Artist & Printologist'
+            role: 'Graphic Designer'
         },
         {
             id: 'omni',
