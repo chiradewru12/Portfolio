@@ -17,11 +17,11 @@ document.addEventListener('DOMContentLoaded', () => {
             id: 'Luxury Hotel logo',
             img: './2.png',
             title: 'Luxury Hotel logo',
-            category: 'Brand Identity',
+            category: 'Logo Design',
             description: 'Modern Logo Design for a Luxury Hotel Brand.',
             client: 'Personal Project.',
             year: '2025',
-            role: 'Brand Identity & Spatial Styling'
+            role: 'Logo Designer'
         },
         {
             id: 'monolith',
