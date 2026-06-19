@@ -14,11 +14,11 @@ document.addEventListener('DOMContentLoaded', () => {
             role: 'Logo Designer'
         },
         {
-            id: 'Luxury Hotel logo',
+            id: 'Luxury Travel logo',
             img: './2.png',
-            title: 'Luxury Hotel logo',
+            title: 'Luxury Travel logo',
             category: 'Logo Design',
-            description: 'Modern Logo Design for a Luxury Hotel Brand.',
+            description: 'Modern Logo Design for a Luxury Travel Brand.',
             client: 'Personal Project',
             year: '2025',
             role: 'Logo Designer'
