@@ -4,14 +4,14 @@ document.addEventListener('DOMContentLoaded', () => {
     // ==========================================
     const portfolioItems = [
         {
-            id: 'archetype',
-            img: './assets/portfolio/01_archetype.jpg',
-            title: 'ARCHETYPE — Editorial Book',
-            category: 'Editorial & Print',
-            description: 'ARCHETYPE is a premium 180-page hardbound publication showcasing contemporary architectural geometries. The project involved deep grid systems design, custom grid margins, classical proportional typesetting, and extensive curation of black and white photography. Every layout page is mathematically aligned to communicate structural balance, elegance, and pure focus.',
-            client: 'Struktur Publishing House',
+            id: 'Podcast Logo',
+            img: './1.png',
+            title: 'Podcast Logo',
+            category: 'Logo Design',
+            description: 'Custom podcast logo designed for a modern digital brand.',
+            client: 'Personal Project',
             year: '2025',
-            role: 'Editorial Director & Lead Designer'
+            role: 'Logo Designer'
         },
         {
             id: 'aeon',
