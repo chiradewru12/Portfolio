@@ -276,14 +276,15 @@ nav a.active::after {
     display:flex;
     align-items:center;
     height:100%;
+    position:relative;
 }
 
 .logo img{
+    display:block;
     height:34px;
     width:auto;
-    display:block;
     object-fit:contain;
-    transition:.3s ease;
+    transition:all .3s ease;
 }
 
 header.scrolled .logo img{
@@ -303,11 +304,11 @@ header.scrolled .logo img{
 }
 
 body.dark-mode .logo-light{
-    display:none !important;
+    display:none;
 }
 
 body.dark-mode .logo-dark{
-    display:block !important;
+    display:block;
 }
 
 /* ==========================================
@@ -1334,16 +1335,3 @@ body.dark-mode .hero-title{
     padding:0 30px;
 }
 
-.logo img{
-    position: absolute;
-    top: 50%;
-    left: 0;
-    transform: translateY(-50%);
-    height: 34px;
-}
-
-.logo{
-    position: relative;
-    width: 170px;
-    height: 34px;
-}
