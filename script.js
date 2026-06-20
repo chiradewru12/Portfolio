@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', () => {
             role: 'Logo Designer'
         },
         {
-            id: 'Mustang Poster',
+            id: 'Mustang Poster', 
             img: './mustang.webp',
             title: 'Mustang Poster',
             category: 'Poster Design',
