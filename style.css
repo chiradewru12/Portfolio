@@ -344,13 +344,13 @@ header.scrolled .logo{
 }
 
 .btn-secondary{
-    background-color:var(--bg-color);
+    background-color:transparent;
     color: var(--text-color);
     border:1px solid #ddd;
 }
 
 .btn-secondary:hover{
-    background-color:var(--bg-color);
+    background-color:transparent;
     color: var(--text-color);
     border-color:#111;
     transform:translateY(-3px);
