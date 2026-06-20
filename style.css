@@ -335,7 +335,7 @@ header.scrolled .logo{
 .btn-primary{
     color: var(--text-color);
     background-color: #ff9ea8
-    border:1px solid #ff9ea8
+    border:1px solid #111;
 }
 
 .btn-primary:hover{
