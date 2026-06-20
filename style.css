@@ -10,7 +10,7 @@
 }
 
 :root {
-    --bg-color: #F6F2EA;
+    --bg-color: #F1ECE2;
     --text-color: #1A1A1A;
     --text-secondary:  #666666;
     --accent-color: #CFC7B8;
@@ -148,7 +148,7 @@ header {
 
 header.scrolled {
     height: 64px;
-    background-color: rgba(255, 255, 255, 0.96);
+    background-color: rgba(241,236,226,.96);
     backdrop-filter: blur(16px);
     border-bottom: 1px solid rgba(0,0,0,0.06);
 }
@@ -290,18 +290,24 @@ header.scrolled .logo img{
     height:30px;
 }
 
-/* Logo Switch */
+/* ==========================
+   LOGO SWITCH
+========================== */
+
+.logo-light{
+    display:block;
+}
 
 .logo-dark{
     display:none;
 }
 
 body.dark-mode .logo-light{
-    display:none;
+    display:none !important;
 }
 
 body.dark-mode .logo-dark{
-    display:block;
+    display:block !important;
 }
 
 /* ==========================================
