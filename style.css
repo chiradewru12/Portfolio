@@ -385,7 +385,7 @@ body.dark-mode .logo-dark{
     font-weight:800;
     line-height:.95;
     letter-spacing:-.06em;
-    color:#111;
+    color:var(--text-color);
     margin-bottom:18px;
 }
 
