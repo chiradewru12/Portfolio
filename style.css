@@ -597,10 +597,11 @@ body.dark-mode .service-card:hover {
 /* ==========================================
    PORTFOLIO SECTION (EDITORIAL WHITE FRAME)
    ========================================== */
-.portfolio-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 22px;
+.portfolio-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:18px;
+    width:100%;
 }
 
 @media (max-width: 991px) {
@@ -1316,4 +1317,13 @@ body.dark-mode .service-card:hover {
 body.dark-mode .hero-title{
     color: #fff !important;
 }
-   
+
+.portfolio-section-full{
+    width:100%;
+    padding:120px 0;
+}
+
+.portfolio-full{
+    width:100%;
+    padding:0 30px;
+}
