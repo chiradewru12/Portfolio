@@ -1313,4 +1313,7 @@ body.dark-mode .service-card:hover {
     box-shadow: 0 10px 30px rgba(0,0,0,.35);
 }
 
+body.dark-mode .hero-title{
+    color: #fff !important;
+}
    
