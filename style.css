@@ -353,7 +353,7 @@ header.scrolled .logo{
 }
 
 .btn-secondary:hover{
-    border-color: #ff9ea8;
+    border-color: #111;
     color: #111;
     transform: translateY(-3px);
 }
