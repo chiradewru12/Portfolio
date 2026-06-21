@@ -370,14 +370,7 @@ header.scrolled .logo{
     position: relative;
     overflow: hidden;
 
-    background:
-    linear-gradient(
-   180deg,
-   #fcfcfc 0%,
-   #ffffff 50%,
-   #f6f6f7 100%
-);
-}
+    }
 
 .hero-content{
     max-width:850px;
