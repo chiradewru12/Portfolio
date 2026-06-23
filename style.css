@@ -371,10 +371,10 @@ header.scrolled .logo{
 }
 
 .hero-wrapper{
-    display: grid;
-    grid-template-columns: minmax(0, 1.15fr) minmax(360px, 420px);
-    align-items: center;
-    gap: 80px;
+    display:grid;
+    grid-template-columns:1fr 450px;
+    align-items:center;
+    gap:90px;
 }
 
 .hero-content{
@@ -419,82 +419,78 @@ header.scrolled .logo{
     gap:18px;
 }
 
-/* ==========================
-   RIGHT HERO SHOWCASE
-========================== */
+/* ==========================================
+   RIGHT SHOWCASE
+========================================== */
 
 .hero-showcase{
-    position: relative;
-    width: 420px;
-    height: 620px;
-    justify-self: end;
+    position:relative;
+    width:450px;
+    height:620px;
+    justify-self:end;
 }
 
 .design-card{
-    position: absolute;
-    width: 260px;
-    background: #fff;
-    border-radius: 22px;
-    overflow: hidden;
-    box-shadow: 0 20px 45px rgba(0,0,0,.12);
-    transition: all .4s ease;
-    cursor: pointer;
+    position:absolute;
+    width:260px;
+    background:#fff;
+    border-radius:22px;
+    overflow:hidden;
+    box-shadow:0 20px 45px rgba(0,0,0,.12);
+    transition:.35s ease;
+    cursor:pointer;
 }
 
 .design-card img{
-    width: 100%;
-    height: 180px;
-    object-fit: cover;
-    display: block;
+    width:100%;
+    height:180px;
+    object-fit:cover;
+    display:block;
 }
 
 .design-card span{
-    display: block;
-    text-align: center;
-    padding: 18px;
-    font-size: 20px;
-    font-weight: 600;
-    color: #222;
+    display:block;
+    padding:18px;
+    text-align:center;
+    font-size:20px;
+    font-weight:600;
+    color:#222;
 }
 
 .design-card:hover{
-    transform: translateY(-12px) scale(1.04);
-    box-shadow: 0 28px 55px rgba(0,0,0,.18);
+    transform:translateY(-10px) scale(1.03);
+    box-shadow:0 30px 60px rgba(0,0,0,.18);
 }
 
 /* Card Positions */
 
 .card1{
-    top: 0;
-    right: 20px;
-    z-index: 3;
+    top:0;
+    right:20px;
+    z-index:3;
 }
 
 .card2{
-    top: 190px;
-    left: 0;
-    z-index: 2;
+    top:190px;
+    left:0;
+    z-index:2;
 }
 
 .card3{
-    bottom: 0;
-    right: 0;
-    z-index: 1;
+    bottom:0;
+    right:0;
+    z-index:1;
 }
 
-/* ==========================
+/* ==========================================
    TABLET
-========================== */
+========================================== */
 
 @media (max-width:992px){
 
-.hero-section{
-    padding:120px 0 60px;
-}
-
 .hero-wrapper{
     grid-template-columns:1fr;
-    gap:60px;
+    gap:70px;
 }
 
 .hero-content{
@@ -503,7 +499,7 @@ header.scrolled .logo{
 }
 
 .hero-description{
-    margin:0 auto 35px;
+    margin:0 auto 40px;
 }
 
 .btn-group{
@@ -511,41 +507,33 @@ header.scrolled .logo{
 }
 
 .hero-showcase{
-    width:100%;
-    max-width:420px;
-    height:620px;
+    width:450px;
     margin:auto;
-}
-
-.card1{
-    top:0;
-    right:10px;
-}
-
-.card2{
-    top:180px;
-    left:0;
-}
-
-.card3{
-    right:0;
-    bottom:0;
+    justify-self:center;
 }
 
 }
 
-/* ==========================
+/* ==========================================
    MOBILE
-========================== */
+========================================== */
 
 @media (max-width:576px){
 
 .hero-title{
-    font-size:4rem;
+    font-size:3.5rem;
 }
 
 .hero-subtitle{
     font-size:1.2rem;
+}
+
+.btn-group{
+    flex-direction:column;
+}
+
+.btn{
+    width:100%;
 }
 
 .hero-showcase{
@@ -553,7 +541,6 @@ header.scrolled .logo{
     height:auto;
     display:flex;
     flex-direction:column;
-    align-items:center;
     gap:20px;
 }
 
@@ -561,6 +548,7 @@ header.scrolled .logo{
     position:relative;
     width:100%;
     max-width:340px;
+    margin:auto;
 }
 
 .card1,
@@ -570,15 +558,6 @@ header.scrolled .logo{
     left:auto;
     right:auto;
     bottom:auto;
-}
-
-.btn-group{
-    flex-direction:column;
-    width:100%;
-}
-
-.btn{
-    width:100%;
 }
 
 }
