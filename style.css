@@ -371,14 +371,14 @@ header.scrolled .logo{
 }
 
 .hero-wrapper{
-    display:grid;
-    grid-template-columns:1.1fr 0.9fr;
-    align-items:center;
-    gap:60px;
+    display: grid;
+    grid-template-columns: minmax(0, 1.15fr) minmax(360px, 420px);
+    align-items: center;
+    gap: 80px;
 }
 
 .hero-content{
-    max-width:560px;
+    max-width:620px;
 }
 
 .hero-tagline{
@@ -391,10 +391,10 @@ header.scrolled .logo{
 }
 
 .hero-title{
-    font-size:clamp(4.5rem,9vw,7.5rem);
-    line-height:.88;
+    font-size:clamp(4rem,8vw,6.6rem);
+    line-height:.9;
     font-weight:900;
-    letter-spacing:-0.06em;
+    letter-spacing:-0.05em;
     margin-bottom:20px;
     color:var(--text-color);
 }
@@ -425,11 +425,9 @@ header.scrolled .logo{
 
 .hero-showcase{
     position: relative;
-    width: 520px;
+    width: 420px;
     height: 620px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-self: end;
 }
 
 .design-card{
@@ -468,19 +466,19 @@ header.scrolled .logo{
 
 .card1{
     top: 0;
-    right: 10px;
+    right: 20px;
     z-index: 3;
 }
 
 .card2{
-    left: 0;
     top: 190px;
+    left: 0;
     z-index: 2;
 }
 
 .card3{
-    right: 0;
     bottom: 0;
+    right: 0;
     z-index: 1;
 }
 
