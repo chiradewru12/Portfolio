@@ -419,59 +419,74 @@ header.scrolled .logo{
     gap:18px;
 }
 
-/* RIGHT */
+/* ==========================
+   RIGHT HERO SHOWCASE
+========================== */
 
 .hero-showcase{
-    position:relative;
-    height:620px;
+    position: relative;
+    width: 520px;
+    height: 620px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .design-card{
-    position:absolute;
-    width:260px;
-    background:#fff;
-    border-radius:22px;
-    overflow:hidden;
-    box-shadow:0 20px 60px rgba(0,0,0,.08);
-    transition:.4s ease;
+    position: absolute;
+    width: 260px;
+    background: #fff;
+    border-radius: 22px;
+    overflow: hidden;
+    box-shadow: 0 20px 45px rgba(0,0,0,.12);
+    transition: all .4s ease;
+    cursor: pointer;
 }
 
 .design-card img{
-    width:100%;
-    display:block;
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    display: block;
 }
 
 .design-card span{
-    display:block;
-    text-align:center;
-    padding:18px;
-    font-weight:600;
+    display: block;
+    text-align: center;
+    padding: 18px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #222;
 }
 
 .design-card:hover{
-    transform:translateY(-12px) scale(1.02);
-    box-shadow:0 35px 80px rgba(0,0,0,.16);
+    transform: translateY(-12px) scale(1.04);
+    box-shadow: 0 28px 55px rgba(0,0,0,.18);
 }
 
+/* Card Positions */
+
 .card1{
-    top:0;
-    right:20px;
-    z-index:3;
+    top: 0;
+    right: 10px;
+    z-index: 3;
 }
 
 .card2{
-    left:0;
-    top:180px;
-    z-index:2;
+    left: 0;
+    top: 190px;
+    z-index: 2;
 }
 
 .card3{
-    right:0;
-    bottom:0;
-    z-index:1;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
 }
 
-/* MOBILE */
+/* ==========================
+   TABLET
+========================== */
 
 @media (max-width:992px){
 
@@ -485,8 +500,8 @@ header.scrolled .logo{
 }
 
 .hero-content{
-    margin:auto;
     text-align:center;
+    margin:auto;
 }
 
 .hero-description{
@@ -498,27 +513,32 @@ header.scrolled .logo{
 }
 
 .hero-showcase{
-    height:700px;
+    width:100%;
     max-width:420px;
+    height:620px;
     margin:auto;
 }
 
 .card1{
     top:0;
-    right:20px;
+    right:10px;
 }
 
 .card2{
-    top:220px;
+    top:180px;
     left:0;
 }
 
 .card3{
+    right:0;
     bottom:0;
-    right:10px;
 }
 
 }
+
+/* ==========================
+   MOBILE
+========================== */
 
 @media (max-width:576px){
 
@@ -531,19 +551,32 @@ header.scrolled .logo{
 }
 
 .hero-showcase{
+    width:100%;
+    height:auto;
     display:flex;
     flex-direction:column;
+    align-items:center;
     gap:20px;
-    height:auto;
 }
 
 .design-card{
-    position:static;
+    position:relative;
     width:100%;
+    max-width:340px;
+}
+
+.card1,
+.card2,
+.card3{
+    top:auto;
+    left:auto;
+    right:auto;
+    bottom:auto;
 }
 
 .btn-group{
     flex-direction:column;
+    width:100%;
 }
 
 .btn{
