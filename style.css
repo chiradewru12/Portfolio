@@ -273,19 +273,17 @@ nav a.active::after {
 ========================== */
 
 .logo{
-    position: relative;
     display: flex;
     align-items: center;
     gap: 10px;
-    width: auto;
-    height: 34px;
 }
 
-/* Logo images (FIXED - no overlap) */
+/* REMOVE absolute (IMPORTANT FIX) */
 .logo img{
     width: 28px;
     height: 28px;
     object-fit: contain;
+    position: static;
 }
 
 /* Light logo default */
@@ -315,6 +313,7 @@ body.dark-mode .logo-dark{
 header.scrolled .logo{
     height:30px;
 }
+
 /* ==========================================
    BUTTONS
 ========================================== */
