@@ -574,6 +574,55 @@ header.scrolled .logo{
     }
 
 }
+
+/* ===========================
+   DARK MODE HERO
+===========================*/
+
+body.dark-mode .hero{
+    background:linear-gradient(135deg,#0f172a,#111827,#1e293b);
+}
+
+body.dark-mode .hero::before{
+    background:radial-gradient(circle,
+        rgba(59,130,246,.25),
+        transparent 70%);
+}
+
+body.dark-mode .hero::after{
+    background:radial-gradient(circle,
+        rgba(236,72,153,.20),
+        transparent 70%);
+}
+
+body.dark-mode .hero-tag{
+    background:rgba(255,255,255,.08);
+    color:#ff6b81;
+    border:1px solid rgba(255,255,255,.1);
+}
+
+body.dark-mode .hero-left h1{
+    color:#fff;
+}
+
+body.dark-mode .hero-left h1 span{
+    color:#ff6b81;
+}
+
+body.dark-mode .hero-description{
+    color:#cbd5e1;
+}
+
+body.dark-mode .btn-secondary{
+    border:2px solid rgba(255,255,255,.25);
+    color:#fff;
+}
+
+body.dark-mode .btn-secondary:hover{
+    background:#fff;
+    color:#111;
+}
+
 /* ==========================================
    SCROLL DOWN
 ========================================== */
