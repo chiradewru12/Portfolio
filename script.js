@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
             category: 'Logo Design',
             description: 'Modern Logo Design for a Luxury Travel Brand.',
             client: 'Personal Project',
-            year: '2025',
+            year: '2022',
             role: 'Logo Designer'
         },
         {
@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', () => {
             category: 'Logo Design',
             description: 'Modern Logo Design for a Luxury Hotel Brand.',
             client: 'Personal Project',
-            year: '2025',
+            year: '2022',
             role: 'Logo Designer'
         },
         {
